@@ -7,4 +7,8 @@ public class Movie {
     double rating;
     int totalOfReview;
     int timeInMinutes;
+
+    public void showTechnicalFile(){
+
+    }
 }
