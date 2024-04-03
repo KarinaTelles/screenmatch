@@ -1,4 +1,4 @@
-package auxstuffs;
+package datastructuretuffs;
 
 import java.util.Arrays;
 import java.util.List;
