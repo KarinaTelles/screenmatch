@@ -12,7 +12,7 @@ public class Main {
         returnOfAverangeMethod = movie.returnAverage();
         System.out.println(returnOfAverangeMethod);
         movie.showTechnicalFile();
-        Movie thePursuitOfHappiness = new Movie("The Pursuit of Happyness",2006,4.8,118);
+        Movie thePursuitOfHappiness = new Movie("The Pursuit of Happyness",2006,118);
         thePursuitOfHappiness.showTechnicalFile();
     }
 }

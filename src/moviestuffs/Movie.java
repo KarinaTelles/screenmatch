@@ -3,7 +3,7 @@ package moviestuffs;
 public class Movie {
     String name;
     int dateOfRelease;
-    boolean isSubscription;
+    boolean isSignedUp;
     double rating;
     double sumOfRating;
     int totalOfReview;
@@ -11,7 +11,7 @@ public class Movie {
     public Movie(){
 
     }
-    public Movie(String name, int dateOfRelease, double rating, int timeInMinutes){
+    public Movie(String name, int dateOfRelease, int timeInMinutes){
         this.name = name;
         this.dateOfRelease = dateOfRelease;
         this.rating = rating;
@@ -22,7 +22,7 @@ public class Movie {
         return "Movie{" +
                 "name='" + name + '\'' +
                 ", dateOfRelease=" + dateOfRelease +
-                ", inSubscription=" + isSubscription +
+                ", inSubscription=" + isSignedUp +
                 ", rating=" + sumOfRating +
                 ", totalOfReview=" + totalOfReview +
                 ", timeInMinutes=" + timeInMinutes +
