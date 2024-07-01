@@ -1,18 +1,24 @@
+import datastructuretuffs.sorting.SelectionSort;
 import moviestuffs.Movie;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        Movie movie = new Movie();
-        movie.showTechnicalFile();
-        movie.rate(1);
-        movie.rate(2);
-        double returnOfAverangeMethod;
-        returnOfAverangeMethod = movie.returnAverage();
-        System.out.println(returnOfAverangeMethod);
-        movie.showTechnicalFile();
-        Movie thePursuitOfHappiness = new Movie("The Pursuit of Happyness",2006,118);
-        thePursuitOfHappiness.showTechnicalFile();
+//        Movie movie = new Movie();
+//        movie.showTechnicalFile();
+//        movie.rate(1);
+//        movie.rate(2);
+//        double returnOfAverangeMethod;
+//        returnOfAverangeMethod = movie.returnAverage();
+//        System.out.println(returnOfAverangeMethod);
+//        movie.showTechnicalFile();
+//        Movie thePursuitOfHappiness = new Movie("The Pursuit of Happyness",2006,118);
+//        thePursuitOfHappiness.showTechnicalFile();
+
+        SelectionSort selectionSort = new SelectionSort();
+        int vetorL[]={7,5,1,8,3};
+        int recebeLista[];
+        recebeLista = selectionSort.sorting(vetorL);
     }
 }

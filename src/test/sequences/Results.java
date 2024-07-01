@@ -30,7 +30,7 @@ class Result {
         int accumulatorOfVarj = 0;
         recorderOfVarj = j;
         int interatorOfVarj;
-        //9-8=1;1-7=-6;-6-7=-13;-13-6=-19
+        //(9-8=1);(1-(-7)=-6);(-6-(-6)=-12)
         for(interatorOfVarj=0;j>=k;interatorOfVarj++){
             recorderOfVarj = j--;
             accumulatorOfVarj = accumulatorOfVarj-recorderOfVarj;
