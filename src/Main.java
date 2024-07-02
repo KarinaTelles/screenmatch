@@ -1,5 +1,4 @@
 import datastructuretuffs.sorting.SelectionSort;
-import moviestuffs.Movie;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -17,8 +16,8 @@ public class Main {
 //        thePursuitOfHappiness.showTechnicalFile();
 
         SelectionSort selectionSort = new SelectionSort();
-        int vetorL[]={7,5,1,8,3};
-        int recebeLista[];
-        recebeLista = selectionSort.sorting(vetorL);
+        int list[]={7,5,1,8,3};
+        int getList[];
+        getList = selectionSort.sort(list);
     }
 }
