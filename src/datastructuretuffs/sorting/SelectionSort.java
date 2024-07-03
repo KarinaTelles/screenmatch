@@ -1,24 +1,22 @@
 package datastructuretuffs.sorting;
 
 public class SelectionSort {
-    public int[] sort(int[] list){
-    findLowestValueAndSwap(list);
-    return list;
-    }
-    public void findLowestValueAndSwap(int[] list) {
-        for (int j = 0; j < list.length -1 ; j++) {
-            int min_index = j;
-            for (int i = 0; i < list.length; i++) {
-                if (list[i] < list[min_index]) {
-                    min_index = i;
-                }
-                if (list[j] > list[min_index]) {
-                    int aux = list[j];
-                    list[j] = list[min_index];
-                    list[min_index]=aux;
+
+    public int[] sort(int[] list) {
+        for (int position= 0; position < list.length -1 ; position++) {
+            int lowerIndex = position;
+            for (int actualIndex = 0; actualIndex < list.length; actualIndex++) {
+                if (list[actualIndex] < list[lowerIndex]) {
+                    lowerIndex = actualIndex;
+                }//encontra o menor
+                if (list[position] > list[lowerIndex]) {
+                    int aux = list[position];
+                    list[position] = list[lowerIndex];
+                    list[lowerIndex]=aux;//manda ele pra primeira posição
                 }
             }
         }
+    return list;
     }
 }
 

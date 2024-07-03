@@ -19,5 +19,6 @@ public class Main {
         int list[]={7,5,1,8,3};
         int getList[];
         getList = selectionSort.sort(list);
+
     }
 }
