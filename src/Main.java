@@ -1,3 +1,4 @@
+import datastructuretuffs.sorting.BubbleSort;
 import datastructuretuffs.sorting.SelectionSort;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -15,10 +16,14 @@ public class Main {
 //        Movie thePursuitOfHappiness = new Movie("The Pursuit of Happyness",2006,118);
 //        thePursuitOfHappiness.showTechnicalFile();
 
-        SelectionSort selectionSort = new SelectionSort();
-        int list[]={7,5,1,8,3};
+//        SelectionSort selectionSort = new SelectionSort();
+//        int list[]={7,5,1,8,3};
+//        int getList[];
+//        getList = selectionSort.sort(list)
+        BubbleSort bubbleSort = new BubbleSort();
+        int list [] = {7,5,1,8,3};
         int getList[];
-        getList = selectionSort.sort(list);
+        getList = bubbleSort.sort(list);
 
     }
 }
