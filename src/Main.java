@@ -25,10 +25,10 @@ public class Main {
 //        int list [] = {7,5,1,8,3};
 //        int getList[];
 //        getList = bubbleSort.sort(list);
-        InsertionSort insertionSort = new InsertionSort();
-        int list [] = {7,5,1,8,3};
-        int getList[];
-        getList = insertionSort.sort(list);
+//        InsertionSort insertionSort = new InsertionSort();
+//        int list [] = {7,5,1,8,3};
+//        int getList[];
+//        getList = insertionSort.sort(list);
 
     }
 }
